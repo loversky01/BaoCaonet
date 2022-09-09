@@ -10,7 +10,7 @@ namespace BaoCaonet
 {
     internal class Ketnoi
     {
-        public static string ConnectString = @"Data Source=LOVERSKY\SQLEXPRESS;Initial Catalog=QuanLyChungCu;Integrated Security=True";
+        public static string ConnectString = @"Data Source=DESKTOP-ELOR9UD\SQLEXPRESS;Initial Catalog=QuanLyChungCu2;Integrated Security=True";
         public static DataTable SelectDB(string sql)
         {
             using (SqlConnection conn = new SqlConnection(ConnectString))
